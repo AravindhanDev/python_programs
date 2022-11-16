@@ -1,7 +1,4 @@
-def concatenateString(str1, str2):
-    print(str1 + str2)
-    print("".join([str1, str2]))
-    print("%s%s" % (str1, str2))
-    print("{}{}".format(str1, str2))
+firstName = input("Enter firstname: ")
+lastName = input("Enter lastname: ")
 
-concatenateString("Hello ", "world")
+print(firstName + " " + lastName)
