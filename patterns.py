@@ -93,13 +93,18 @@ for i in range(1, 6):
 print()
 '''
 
+'''
 print()
 
-for i in range(1, 3+1):
-    print(i)
+for i in range(1, 4):
+    for k in range(3, 1, -1):
+        if i == 1: break
+        if i == 2 and k == 3: continue
+        print(k, end=" ")
+    for j in range(0, i):
+        print(j+1, end=" ")
+    print("\n")
 
-
-
-
-
+print()
+'''
 
